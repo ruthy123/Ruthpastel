@@ -7,11 +7,11 @@ body {
 
 .cover {
   height:400px;
-  background-image:url(https://cdn.glitch.com/6db8ca25-c772-4212-a62b-19410518a076%2Frsz_sharon-mccutcheon-s4ragio2eyi-unsplash_1.jpg?v=1620581574931 );
+  background-image:url(https://cdn.glitch.com/9139c0d5-4437-4050-acbb-7ce90f8b33be%2Fjodie-walton-Vvx4kbkubtI-unsplash.jpg?v=1620840723512 );
   color:white;
   background-size: cover;
   background-position:center;
-  background-color:rgba(0,0,0,0.1);
+  background-color:rgba(0,0,0,0.5);
   background-blend-mode:darken ;
 }
 .card{
