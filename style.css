@@ -2,19 +2,24 @@
 
 body {
   margin: 0em;
-  font-family: 'Itim', cursive;
+  font-family: "Itim", cursive;
 }
 
 .cover {
-  height:400px;
-  background-image:url(https://cdn.glitch.com/9139c0d5-4437-4050-acbb-7ce90f8b33be%2Fjodie-walton-Vvx4kbkubtI-unsplash.jpg?v=1620840723512 );
-  color:white;
+  height: 400px;
+  background-image: url(https://cdn.glitch.com/9139c0d5-4437-4050-acbb-7ce90f8b33be%2Fjodie-walton-Vvx4kbkubtI-unsplash.jpg?v=1620840723512);
+  color: white;
   background-size: cover;
-  background-position:center;
-  background-color:rgba(0,0,0,0.5);
-  background-blend-mode:darken ;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken;
 }
-.card{
+.cover-small {
+  height: 200px;
+  background-blend-mode: normal;
+}
+.card {
   border: 0 !important;
-  box-shadow: 0 4px 6px  -1px rgba(0, 0, 0, 0.1), 0 2px  4px -1px rgba(0, 0, 0, 0.6)
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.6);
 }
