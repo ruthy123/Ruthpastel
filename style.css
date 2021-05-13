@@ -34,13 +34,13 @@ body {
   min-height:10rem;
 }
 
-.product-stripe{
+.product-stripe .slider{
   overflow-x:scroll;
   padding-top:1rem;
   padding-btton:1rem;
 }
 
-.stripe-container{
+.stripe-container, .slider-container{
   display:flex;
 }
 
@@ -62,7 +62,18 @@ body {
   height:100%;
 }
 
+.slider{
+  overflow-x:hidden;
+}
+
+.slider-container{
+  transform:translateX(0);
+}
+
 .image-container{
   width:100%;
-  padding-top
+  padding-top:56.25%;
+  background-size:cover;
+  background-position:center;
+  flex-shrink:0;
 }
