@@ -34,6 +34,12 @@ body {
   min-height:10rem;
 }
 
+.product-stripe{
+  overflow-x:scroll;
+  padding-top:1rem;
+  padding-btton:1rem;
+}
+
 .stripe-container{
   display:flex;
 }
